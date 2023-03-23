@@ -8,7 +8,8 @@ body {
   font-family: DejaVuSerif, serif;
 }
 
-h1 , h2 {
+h1,
+h2 {
   font-family: Cantarell, sans-serif;
 }
 
@@ -50,7 +51,9 @@ main {
   margin-left: 20px;
 }
 
-table , tr , td {
+table,
+tr,
+td {
   border: 2.5px solid rgb(67, 115, 67);
   border-collapse: collapse;
 }
@@ -60,7 +63,7 @@ td {
   margin: 2.5px;
 }
 
-#titulo {
+#title {
   position: fixed;
   top: 15px;
   left: 15px;
@@ -68,22 +71,22 @@ td {
   color: rgb(253, 251, 251);
 }
 
-#listas {
+#lists {
   margin-bottom: 30px;
 }
 
-#listas div {
+#lists div {
   display: inline-block;
   margin-right: 100px;
 }
 
-#listas ol {
+#lists ol {
   margin-top: 20px;
   margin-left: 30px;
   line-height: 1.3em;
 }
 
-.lado-esquerdo {
+.left-side {
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
@@ -93,7 +96,7 @@ td {
   padding-bottom: 5em;
 }
 
-.lado-direito {
+.right-side {
   margin-top: 10px;
   margin-bottom: 20px;
   margin-right: 50%;
@@ -103,14 +106,14 @@ td {
   padding-bottom: 5em;
 }
 
-.lado-direito p {
+.right-side p {
   color: rgb(253, 251, 251);
   background-color: rgb(67, 115, 67);
   padding: 20px;
   text-align: center;
 }
 
-#titulo_da_tabela {
+#table-title {
   margin-bottom: 20px;
   clear: left;
 }
