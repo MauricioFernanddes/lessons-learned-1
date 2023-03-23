@@ -1,3 +1,4 @@
+/* Declaração de variáveis CSS */
 :root {
   --white: #fbfbfb;
   --green: #437343;
@@ -5,8 +6,78 @@
   --black: #333;
 }
 
+/* Redefine os estilos padrão do navegador */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: var(--white);
+}
+
+header {
+  width: 100%;
+  /* Fixa o elemento no topo da página */
+  position: fixed;
+  top: 0;
+  background: var(--green);
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+header h1 {
+  width: fit-content;
+  /* eixo y eixo x */
+  margin: 1rem auto; 
+  color: var(--white);
+  /* define um tamanho mínimo e máximo da fonte, baseando-se no tamanho da tela */
+  font-size: clamp(2rem, -0.875rem + 8.333vw, 2.5rem);
+}
+
+main {
+  /* top eixo x bottom */
+  margin-top: 6rem;
+  padding: 0 4rem;
+}
+
+img {
+  width: 20rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+
+footer {
+  padding: 1.5rem;
+  text-align: center;
+  background: var(--green);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+/* Media query para mobile */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+ main {
+  margin-top: 7rem;
+  padding: 0 2rem;
+ } 
+
+ img {
+  width: 18rem;
+ }
+}
+
+/* Media query para tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+ main {
+  margin-top: 6rem;
+ } 
 }
