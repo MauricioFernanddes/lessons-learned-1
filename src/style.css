@@ -189,6 +189,12 @@ footer a:hover {
   .lessons {
     flex-direction: column;
     gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .lessons ol {
+    list-style-type: none;
   }
 
   .about {
@@ -206,10 +212,6 @@ footer a:hover {
 
   .about aside p {
     font-size: 1rem;
-  }
-
-  .modules {
-    margin-top: 3rem;
   }
 }
 
