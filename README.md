@@ -35,26 +35,26 @@ A proposta desse projeto é desenvolver um site que contenha uma série de infor
   7. Insira pelo menos um link externo na página
   8. Crie um artigo sobre seu aprendizado
   9. Crie uma tag html aside que contenha uma breve descrição sobre você
-  10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles
-    - A sua página deve conter os seguintes elementos: article, header, aside e footer
+  10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles. A sua página deve conter os seguintes elementos: article, header, aside e footer
   11. Teste a semântica da sua página usando o site CodeSniffer
   12. Adicione uma tabela à página
-  13. Utilize o Box model
-    - Altere margin, padding e border de algum elemento na página
+  13. Utilize o Box model. Altere margin, padding e border de algum elemento na página
   14. Altere atributos relacionados às fontes
   15. Posicione a tag article e a tag aside uma ao lado do outra
 
 ### Screenshot
 
 #### Mobile View
+
 ![Mobile View](screenshots/mobile.png)
 
 #### Desktop View
+
 ![Desktop View](screenshots/desktop.png)
 
 ### Links
 
-- Live Site URL: [Lessons Learned](https://site.com)
+- Live Site URL: [Lessons Learned](https://lessons-learned-beta.vercel.app/)
 
 ## Processo
 
@@ -67,13 +67,15 @@ A proposta desse projeto é desenvolver um site que contenha uma série de infor
 
 ### Aprendizados
 
-Ao realizar esse projeto eu aprendi x e y coisas.
+Ao realizar esse projeto eu aprendi como estilizar um documento HTML usando CSS e sobre o uso de tags semânticas para melhorar a acessibilidade e ranqueamento de um site.
 
 Exemplo:
 
 ```html
-<h1>Hello World!</h1>
+  <a href="https://www.betrybe.com/" target="_blank" title="Abrir o site da Trybe">Trybe</a>
 ```
+
+No código acima, adicionei o atributo ```title``` para explicitar a ação que o link realiza ao ser clicado.
 
 ### Desenvolvimento
 
