@@ -124,8 +124,14 @@ h2 {
 table {
   margin: 1rem auto;
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
   text-align: left;
+}
+
+table caption {
+  color: var(--gray);
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
 }
 
 td , th {
@@ -204,10 +210,6 @@ footer a:hover {
 
   .modules {
     margin-top: 3rem;
-  }
-
-  table {
-    width: 100%;
   }
 }
 
