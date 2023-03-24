@@ -1,6 +1,7 @@
-# Nome do Projeto
+# Lessons Learned
 
-Descrição breve do projeto.
+Foi meu primeiro projeto feito na Trybe, ainda durante o módulo de Fundamentos.
+Eu obtive 100% de aprovação nos requisitos obrigatórios e bônus desse projeto.
 
 ## Sumário
 
@@ -20,22 +21,40 @@ Descrição breve do projeto.
 
 ### Proposta
 
-Usuários devem ser capazes de:
+A proposta desse projeto é desenvolver um site que contenha uma série de informações sobre o que eu aprendi na Trybe até o momento. O site deverá estar com elementos posicionados e estilizados e deverá conter semântica apropriada para que seja acessível e melhor ranqueado.
 
-- Feature 1
-- Feature 2
-- Feature 3
-  - Um efeito acontece quando há um hover no botão
-  - O botão está desabilitado caso o e-mail não esteja preenchido
-- Etc
+- Nesse projeto o StyleLint foi utilizado para avaliar a qualidade e legibilidade do código CSS
+- Os requisitos do projeto foram avaliados pelo Cypress
+- Requisitos:
+  1. A cor de fundo da página deve ser rgb(253, 251, 251)
+  2. Adicione uma barra superior com um título
+  3. Adicione uma sua foto à página
+  4. Adicione uma lista de lições aprendidas à página
+  5. Crie uma lista de lições que ainda deseja aprender para a página
+  6. Adicione um rodapé para a página
+  7. Insira pelo menos um link externo na página
+  8. Crie um artigo sobre seu aprendizado
+  9. Crie uma tag html aside que contenha uma breve descrição sobre você
+  10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles
+    - A sua página deve conter os seguintes elementos: article, header, aside e footer
+  11. Teste a semântica da sua página usando o site CodeSniffer
+  12. Adicione uma tabela à página
+  13. Utilize o Box model
+    - Altere margin, padding e border de algum elemento na página
+  14. Altere atributos relacionados às fontes
+  15. Posicione a tag article e a tag aside uma ao lado do outra
 
 ### Screenshot
 
-![Mobile View](screenshot.png)
+#### Mobile View
+![Mobile View](screenshots/mobile.png)
+
+#### Desktop View
+![Desktop View](screenshots/desktop.png)
 
 ### Links
 
-- Live Site URL: [Projeto](https://site.com)
+- Live Site URL: [Lessons Learned](https://site.com)
 
 ## Processo
 
@@ -44,12 +63,7 @@ Usuários devem ser capazes de:
 - HTML5 Semântico
 - Propriedades customizadas do CSS3
 - Flexbox
-- CSS Grid
-- EcmaScript 6
-- Design mobile-first
-- [React](https://reactjs.org) - JS Library
-- [Next.js](https://nextjs.org) - React framework
-- [Tailwind](https://tailwindcss.com) - CSS framework
+- Layout mobile-first
 
 ### Aprendizados
 
