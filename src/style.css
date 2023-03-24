@@ -1,10 +1,15 @@
 /* Declaração de variáveis CSS */
 :root {
-  --white: #fbfbfb;
-  --green: #437343;
-  --light-gray: #d4d4d4;
-  --black: #333;
-  --gray: #a5a5a5;
+
+  --white: rgb(251, 251, 251);
+
+  --green: rgb(67, 115, 67);
+
+  --light-gray: rgb(212, 212, 212);
+
+  --black: rgb(51, 51, 51);
+
+  --gray: rgb(165, 165, 165);
 }
 
 /* Redefine os estilos padrão do navegador */
@@ -16,11 +21,12 @@
 
 body {
   background: var(--white);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
 }
 
 header {
   width: 100%;
+
   /* Fixa o elemento no topo da página */
   position: fixed;
   top: 0;
@@ -30,15 +36,18 @@ header {
 
 header h1 {
   width: fit-content;
+
   /* eixo y eixo x */
   margin: 1rem auto;
   color: var(--white);
+
   /* define um tamanho mínimo e máximo da fonte, baseando-se no tamanho da tela */
   font-size: clamp(2rem, -0.875rem + 8.333vw, 2.5rem);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
+
   /* top eixo x bottom */
   margin-top: 6rem;
   padding: 0 4rem;
@@ -56,7 +65,7 @@ h2 {
   color: var(--green);
   font-size: clamp(1.5rem, -0.875rem + 8.333vw, 2rem);
   padding: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* classe utilitária: alinha o texto ao centro */
@@ -71,13 +80,11 @@ h2 {
   justify-content: center;
 }
 
-.lessons ol,
-.lessons ul {
+.lessons ol , .lessons ul {
   padding: 0 1rem;
 }
 
-.lessons li,
-.about p {
+.lessons li , .about p {
   font-size: clamp(1rem, -0.875rem + 8.333vw, 1.5rem);
 }
 
@@ -92,7 +99,7 @@ h2 {
 }
 
 .about__content strong {
-  color: #437343;
+  color: var(--green);
 }
 
 .about aside {
@@ -117,8 +124,7 @@ table {
   text-align: left;
 }
 
-td,
-th {
+td , th {
   border: 1px solid var(--light-gray);
   padding: 0.5rem;
   font-size: 1.2rem;
@@ -129,7 +135,7 @@ th {
   color: var(--white);
 }
 
-tr:nth-child(even) {
+tr:nth-child( even ) {
   background: var(--light-gray);
 }
 
@@ -154,7 +160,9 @@ footer a:hover {
 }
 
 /* Media query para mobile */
-@media screen and (min-width: 320px) and (max-width: 480px) {
+
+@media screen and ( min-width : 320px ) and ( max-width : 480px ) {
+
   main {
     margin-top: 8rem;
     padding: 0 2rem;
@@ -170,7 +178,7 @@ footer a:hover {
 
   .lessons {
     flex-direction: column;
-    gap: 0.5rem
+    gap: 0.5rem;
   }
 
   .about {
@@ -192,7 +200,9 @@ footer a:hover {
 }
 
 /* Media query para tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+
+@media screen and ( min-width : 481px ) and ( max-width : 768px ) {
+
   main {
     margin-top: 6rem;
   }
