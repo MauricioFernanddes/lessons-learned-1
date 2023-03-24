@@ -79,18 +79,16 @@ No código acima, adicionei o atributo ```title``` para explicitar a ação que 
 
 ### Desenvolvimento
 
-Quero continuar aprendendo x e preciso melhorar y.
+Quero continuar aprimorando meus conhecimentos sobre HTMl e CSS.
 
 ### Recursos
 
-- [Exemplo](https://www.exemplo.com) - Esse exemplo me ajudou a entender como fazer isso e aquilo.
+- [Media Query CSS Example – Max and Min Screen Width for Mobile Responsive Design](https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/) - Esse artigo me ajudou a entender melhor como funcionam as media queries do CSS.
 
 ## Autor
 
-- Portfólio - [Nome](https://www.portfolio.com)
-- LinkedIn - [username](https://https://www.linkedin.com/in/username)
-- Twitter - [@username](https://www.twitter.com/username)
+- LinkedIn - [Marlon Couto](https://https://www.linkedin.com/in/marlon-couto-dev)
 
 ## Agradecimentos
 
-Agradeço a Fulano de Tal pela ajuda. O projeto de Ciclano de Tal me serviu de inspiração para esse projeto.
+Agradeço à Trybe e meus colegas por minha evolução constante no mundo da programação.
