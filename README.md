@@ -4,6 +4,7 @@
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 Foi meu primeiro projeto feito na Trybe, ainda durante o módulo de Fundamentos.
 Eu obtive 100% de aprovação nos requisitos obrigatórios e bônus desse projeto.
