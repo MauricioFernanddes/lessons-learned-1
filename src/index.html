@@ -11,22 +11,20 @@
 
 <body>
   <!-- CABEÇALHO -->
-  <header class="txt-center">
-    <h1>Marlon Couto - Lessons Learned</h1>
+  <header class="text-center" id="cabecalho">
+    <h1 id="titulo">Marlon Couto - Lessons Learned</h1>
   </header>
   <!-- FIM DO CABEÇALHO -->
 
   <!-- MAIN CONTAINER -->
   <main>
-    <img src="images/profile.jpg" alt="Marlon Couto" />
-
+    <img src="images/profile.jpg" alt="Marlon Couto" id="minha_foto" />
     <!-- LIÇÕES -->
     <div class="lessons">
-
       <!-- LIÇÕES APRENDIDAS -->
       <section>
         <h2>Lições Aprendidas</h2>
-        <ol>
+        <ol id="licoes_aprendidas">
           <li>Unix</li>
           <li>Shell</li>
           <li>Git</li>
@@ -44,7 +42,7 @@
       <!-- LIÇÕES QUE QUERO APRENDER -->
       <section>
         <h2>Lições Que Quero Aprender</h2>
-        <ul>
+        <ul id="licoes_a_aprender">
           <li>JavaScript</li>
           <li>Flexbox</li>
           <li>ESLint</li>
@@ -58,26 +56,30 @@
         </ul>
       </section>
       <!-- FIM DAS LIÇÕES QUE QUERO APRENDER -->
-
     </div>
     <!-- FIM DAS LIÇÕES -->
 
     <!-- SOBRE A TRYBE -->
-    <section class="about txt-center">
+    <section class="about text-center">
       <h2>Sobre a Trybe</h2>
       <div class="about__content">
-        <p class="txt-center">
-          Em meu primeiro mês de estudo na Trybe, aprendi tanta coisa nova que
-          fica difícil elencar qual aprendizado foi mais importante ou qual mais
-          gostei. Os primeiros assuntos aprendidos foram direcionados ao uso
-          básico do terminal, depois aprendemos sobre versionamento de código:
-          sua importância, utilidade e como usar o git, que é
-          <strong>maravilhoso!</strong> Estou muito animado com meu resultado
-          até aqui e vou aproveitar ao máximo tudo que a Trybe tem a oferecer.
-        </p>
+        <!-- ARTIGO -->
+        <article>
+          <p class="text-center">
+            Em meu primeiro mês de estudo na Trybe, aprendi tanta coisa nova que
+            fica difícil elencar qual aprendizado foi mais importante ou qual mais
+            gostei. Os primeiros assuntos aprendidos foram direcionados ao uso
+            básico do terminal, depois aprendemos sobre versionamento de código:
+            sua importância, utilidade e como usar o git, que é
+            <strong>maravilhoso!</strong> Estou muito animado com meu resultado
+            até aqui e vou aproveitar ao máximo tudo que a Trybe tem a oferecer.
+          </p>
+        </article>
+        <!-- FIM DO ARTIGO -->
+
         <!-- COMENTÁRIOS ADICIONAIS -->
         <aside>
-          <p class="txt-center">
+          <p class="text-center">
             Sou Feiticeiro amador com alguns níveis de Paladino para ficar mais
             <em>tanker</em>. Gosto de jogos e meu estilo musical favorito é metal,
             mas todo dia eu canto um piseiro porque música boa não tem rótulo.
@@ -90,7 +92,7 @@
     <!-- FIM DO SOBRE A TRYBE -->
 
     <!-- MÓDULOS DA TRYBE -->
-    <section class="modules txt-center">
+    <section class="modules text-center">
       <h2>Módulos da Trybe</h2>
       <table>
         <caption>Percentual de conclusão dos módulos da Trybe</caption>
@@ -121,12 +123,11 @@
       </table>
     </section>
     <!-- FIM DOS MÓDULOS DA TRYBE -->
-
   </main>
   <!-- FIM DO MAIN CONTAINER -->
   <br />
   <!-- RODAPÉ -->
-  <footer class="txt-center">
+  <footer class="text-center" id="rodape">
     <a href="https://www.betrybe.com/" target="_blank" title="Abrir o site da Trybe">Trybe</a>
   </footer>
   <!-- FIM DO RODAPÉ -->
