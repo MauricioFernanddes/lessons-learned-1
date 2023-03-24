@@ -84,6 +84,10 @@ h2 {
   padding: 0 1rem;
 }
 
+.lessons ul {
+  list-style-type: none;
+}
+
 .lessons li , .about p {
   font-size: clamp(1rem, -0.875rem + 8.333vw, 1.5rem);
 }
@@ -178,7 +182,7 @@ footer a:hover {
 
   .lessons {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 
   .about {
@@ -190,8 +194,16 @@ footer a:hover {
     gap: 1rem;
   }
 
+  .about aside {
+    margin-top: 1.5rem;
+  }
+
   .about aside p {
     font-size: 1rem;
+  }
+
+  .modules {
+    margin-top: 3rem;
   }
 
   table {
