@@ -115,6 +115,7 @@ h2 {
 
 .about aside p {
   font-size: 1.25rem;
+  line-height: 1.2;
 }
 
 .modules {
@@ -131,7 +132,6 @@ table {
 table caption {
   color: var(--gray);
   margin-bottom: 0.5rem;
-  font-size: 0.8rem;
 }
 
 td , th {
