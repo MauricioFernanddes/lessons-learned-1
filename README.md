@@ -1,5 +1,3 @@
-<div align="center">
-
 # Lessons Learned 📔
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -9,8 +7,6 @@
 Foi meu primeiro projeto feito na Trybe, ainda durante o módulo de Fundamentos.
 Eu obtive 100% de aprovação nos requisitos obrigatórios e bônus desse projeto.
 Os arquivos de teste nesse projeto foram desenvolvidos pela Trybe.
-
-</div>
 
 ## Sumário
 
