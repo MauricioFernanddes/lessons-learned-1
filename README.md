@@ -42,10 +42,10 @@ A proposta desse projeto é desenvolver um site que contenha uma série de infor
   9. Crie uma tag html aside que contenha uma breve descrição sobre você
   10. Aplique elementos HTML de acordo com o sentido e propósito de cada um deles. A sua página deve conter os seguintes elementos: article, header, aside e footer
   11. Teste a semântica da sua página usando o site CodeSniffer
-  12. Adicione uma tabela à página
-  13. Utilize o Box model. Altere margin, padding e border de algum elemento na página
-  14. Altere atributos relacionados às fontes
-  15. Posicione a tag article e a tag aside uma ao lado do outra
+  12. Adicione uma tabela à página (bônus)
+  13. Utilize o Box model. Altere margin, padding e border de algum elemento na página (bônus)
+  14. Altere atributos relacionados às fontes (bônus)
+  15. Posicione a tag article e a tag aside uma ao lado do outra (bônus)
 
 ### Screenshot
 
