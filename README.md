@@ -33,7 +33,7 @@ A proposta desse projeto é desenvolver um site que contenha uma série de infor
 - Requisitos:
   1. A cor de fundo da página deve ser rgb(253, 251, 251)
   2. Adicione uma barra superior com um título
-  3. Adicione uma sua foto à página
+  3. Adicione uma foto sua à página
   4. Adicione uma lista de lições aprendidas à página
   5. Crie uma lista de lições que ainda deseja aprender para a página
   6. Adicione um rodapé para a página
@@ -81,10 +81,12 @@ Ao realizar esse projeto eu aprendi como estilizar um documento HTML usando CSS 
 Exemplo:
 
 ```html
-  <a href="https://www.betrybe.com/" target="_blank" title="Abrir o site da Trybe">Trybe</a>
+<a href="https://www.betrybe.com/" target="_blank" title="Abrir o site da Trybe"
+  >Trybe</a
+>
 ```
 
-No código acima, adicionei o atributo ```title``` para explicitar a ação que o link realiza ao ser clicado.
+No código acima, adicionei o atributo `title` para explicitar a ação que o link realiza ao ser clicado.
 
 ### Desenvolvimento
 
