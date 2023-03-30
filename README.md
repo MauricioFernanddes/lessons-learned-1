@@ -90,7 +90,7 @@ No código acima, adicionei o atributo `title` para explicitar a ação que o li
 
 ### Desenvolvimento
 
-Quero continuar aprimorando meus conhecimentos sobre HTMl e CSS.
+Quero continuar aprimorando meus conhecimentos sobre HTML e CSS.
 
 ### Recursos
 
