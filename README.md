@@ -49,8 +49,6 @@ A proposta desse projeto é desenvolver um site que contenha uma série de infor
 
 ### Screenshot
 
-<div align="center">
-
 #### Mobile View
 
 ![Mobile View](screenshots/mobile.png)
@@ -62,8 +60,6 @@ A proposta desse projeto é desenvolver um site que contenha uma série de infor
 #### Code
 
 ![Code](screenshots/code.png)
-
-</div>
 
 ### Links
 
